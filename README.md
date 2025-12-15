@@ -26,3 +26,21 @@ This repository contains the data and code used to develop the large-language-mo
 - Optimized for 100% recall to avoid false negatives
 
 - Final threshold: 0.22, enabling maximum sensitivity
+
+---
+
+### Data description 
+It contains manually labeled scientific titles used to train and evaluate the classifier.
+Each row consists of:
+
+Title – The scientific article title
+
+Inclusion – Relevance label
+
+1 = Include (title meets PECOS criteria for potential relevance)
+
+0 = Exclude (title does not meet criteria)
+
+This dataset was used to fine-tune the model and calibrate the decision threshold.
+
+Full information on the PECOS criteria can be found in the published protocol at: https://www.crd.york.ac.uk/PROSPERO/view/CRD420250643483 
