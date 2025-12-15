@@ -12,7 +12,7 @@ SEED = 42  # random seed used for NumPy, Python, and TensorFlow
 # -------------------------------------------------------------------
 # Data settings
 # -------------------------------------------------------------------
-DATA_PATH = "Training_data_second_refined_2.csv"  # CSV with Title + Inclusion
+DATA_PATH = "Data_title_screening.csv"  # CSV with Title + Inclusion
 TEXT_COLUMN = "Title"                             # text field
 LABEL_COLUMN = "Inclusion"                        # 1 = include, 0 = exclude
 
