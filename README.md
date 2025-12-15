@@ -7,7 +7,7 @@ This repository contains the data and code used to develop the large-language-mo
 
 ## Contents
 
-- Training_data_second_refined_2.csv – Labeled dataset of titles used for model training and evaluation
+- Data_title_screening.csv – Labeled dataset of titles used for model training and evaluation
 
 - SR_BERT_NPS.ipynb – Reproducible notebook containing preprocessing, model training, evaluation, and inference
 
